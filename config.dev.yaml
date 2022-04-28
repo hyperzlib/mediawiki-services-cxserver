@@ -107,6 +107,11 @@ services:
           api: https://translate.yandex.net
           key: null
           languages: config/Yandex.yaml
+        Baidu:
+          api: https://fanyi-api.baidu.com/api/trans/vip/translate
+          appid: null
+          key: null
+          languages: config/Baidu.yaml
         Youdao:
           api: https://openapi.youdao.com/api
           appKey: null

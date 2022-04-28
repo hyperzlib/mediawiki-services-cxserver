@@ -1,0 +1,7 @@
+handler: transform.js
+languages:
+  - en
+  - ja
+  - kor
+  - yue
+  - zh

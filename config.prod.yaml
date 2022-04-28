@@ -104,6 +104,11 @@ services:
           api: https://www.googleapis.com/language/translate/v2
           key: null
           languages: config/Google.yaml
+        Baidu:
+          api: https://fanyi-api.baidu.com/api/trans/vip/translate
+          appid: null
+          key: null
+          languages: config/Baidu.yaml
         Yandex:
           api: https://translate.yandex.net
           key: null
