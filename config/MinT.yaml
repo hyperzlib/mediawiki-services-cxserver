@@ -1,0 +1,196 @@
+handler: transform.js
+languages:
+  - ace
+  - af
+  - am
+  - ar
+  - ary
+  - arz
+  - as
+  - ast
+  - awa
+  - ay
+  - az
+  - azb
+  - ba
+  - ban
+  - be
+  - bg
+  - bh
+  - bho # This will get mapped to 'bh' while requesting to MinT server
+  - bjn
+  - bm
+  - bn
+  - bo
+  - bs
+  - bug
+  - ca
+  - ceb
+  - ckb
+  - crh
+  - cs
+  - cy
+  - da
+  - din
+  - dz
+  - ee
+  - el
+  - en
+  - eo
+  - es
+  - et
+  - eu
+  - fa
+  - ff
+  - fi
+  - fj
+  - fo
+  - fr
+  - fur
+  - ga
+  - gd
+  - gl
+  - gn
+  - gu
+  - ha
+  - he
+  - hi
+  - hr
+  - ht
+  - hu
+  - hy
+  - id
+  - ig
+  - ilo
+  - is
+  - it
+  - jv
+  - ka
+  - kab
+  - kbp
+  - kg
+  - ki
+  - kk
+  - km
+  - kn
+  - ko
+  - ks
+  - ku
+  - ky
+  - lb
+  - lg
+  - li
+  - lij
+  - lmo
+  - ln
+  - lo
+  - lt
+  - ltg
+  - lv
+  - mai
+  - mg
+  - mi
+  - min
+  - mk
+  - ml
+  - mn
+  - mni
+  - mr
+  - ms
+  - mt
+  - my
+  - nb # This will get mapped to 'no' while requesting to MinT server
+  - ne
+  - nl
+  - nn
+  - no
+  - nso
+  - ny
+  - oc
+  - om
+  - or
+  - pa
+  - pag
+  - pap
+  - pl
+  - ps
+  - pt
+  - qu
+  - rn
+  - ro
+  - ru
+  - rw
+  - sa
+  - sc
+  - scn
+  - sd
+  - sg
+  - shn
+  - si
+  - simple # This will get mapped to 'en' while requesting to MinT server
+  - sk
+  - sl
+  - sm
+  - sn
+  - so
+  - sq
+  - sr
+  - ss
+  - st
+  - su
+  - sv
+  - sw
+  - szl
+  - ta
+  - te
+  - tg
+  - th
+  - ti
+  - tk
+  - tl
+  - tn
+  - tpi
+  - tr
+  - ts
+  - tt
+  - tum
+  - tw
+  - ug
+  - uk
+  - ur
+  - uz
+  - vec
+  - vi
+  - war
+  - wo
+  - xh
+  - yi
+  - yo
+  - zh
+  - zu
+# Specific language pairs
+pairs:
+  en:
+    - bcl # en->bcl is provided by OpusMT and it is single direction
+    - brx # IndicTrans2 only provides en<->brx, No wiki yet.
+    - doi # IndicTrans2 only provides en<->doi, No wiki yet.
+    - gom # IndicTrans2 only provides en<->gom
+    - sat # IndicTrans2 only provides en<->santali
+  brx:
+    - en
+    - simple
+  doi:
+    - en
+    - simple
+  gom:
+    - en
+    - simple
+  sat:
+    - en
+    - simple
+  simple:
+    - bcl
+    - brx
+    - doi
+    - gom
+    - sat

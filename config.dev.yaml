@@ -84,6 +84,7 @@ services:
         database: config/templatemapping.db
       sectionmapping:
         database: config/cx-section-titles-aligned.db
+        type: sqlite
       mt:
         Apertium:
           api: https://apertium.wmflabs.org
@@ -94,11 +95,6 @@ services:
           languages: config/Elia.yaml
           key: null
           apiId: null
-        Flores:
-          api: https://ofv2f85z7g.execute-api.us-east-1.amazonaws.com/default/getTranslation
-          key: null
-          secret: null
-          languages: config/Flores.yaml
         Google:
           api: https://www.googleapis.com/language/translate/v2
           key: null
@@ -122,9 +118,9 @@ services:
           account: wikimedia
           key: null
           languages: config/LingoCloud.yaml
-        OpusMT:
-          api: https://opusmt.wmflabs.org/api/translate
-          languages: config/OpusMT.yaml
+        MinT:
+          api: https://translate.wmcloud.org/api/translate
+          languages: config/MinT.yaml
         TestClient:
           languages: config/TestClient.yaml
       dictionary:

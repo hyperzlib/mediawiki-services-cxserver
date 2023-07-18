@@ -3,19 +3,27 @@ languages:
   - af
   - am
   - ar
+  - arz
+  - as
+  - ay
   - az
   - be
   - be-tarask
   - bg
+  - bho
+  - bm
   - bn
   - bs
   - ca
   - ceb
+  - ckb
   - co
   - cs
   - cy
   - da
   - de
+  - dv
+  - ee
   - el
   - en
   - eo
@@ -30,6 +38,8 @@ languages:
   - gan
   - gd
   - gl
+  - gn
+  - gom
   - gu
   - ha
   - haw
@@ -41,6 +51,7 @@ languages:
   - hy
   - id
   - ig
+  - ilo
   - is
   - it
   - ja
@@ -54,14 +65,18 @@ languages:
   - ky
   - la
   - lb
+  - lg
+  - ln
   - lo
   - lt
   - lv
+  - mai
   - mg
   - mi
   - mk
   - ml
   - mn
+  - mni
   - mr
   - ms
   - mt
@@ -69,15 +84,19 @@ languages:
   - ne
   - nl
   - no
+  - nso
   - ny
+  - om
   - or
   - pa
   - pl
   - ps
   - pt
+  - qu
   - ro
   - ru
   - rw
+  - sa
   - sd
   - sh
   - si
@@ -97,10 +116,13 @@ languages:
   - te
   - tg
   - th
+  - ti
   - tk
   - tl
   - tr
+  - ts
   - tt
+  - tw
   - ug
   - uk
   - ur
@@ -110,6 +132,5 @@ languages:
   - xh
   - yi
   - yo
-  - yue
   - zh
   - zu

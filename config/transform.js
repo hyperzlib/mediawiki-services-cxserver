@@ -3,6 +3,7 @@
 class TransformLanguages {
 	constructor( conf ) {
 		this.langs = conf.languages;
+		this.pairs = conf.pairs;
 		this.notAsTarget = conf.notAsTarget || [];
 	}
 
@@ -18,6 +19,11 @@ class TransformLanguages {
 				return l !== lang && !this.notAsTarget.includes( l );
 			} );
 		}
+
+		for ( const sourceLang in this.pairs ) {
+			matrix[ sourceLang ] = this.pairs[ sourceLang ].concat( matrix[ sourceLang ] || [] );
+		}
+
 		return matrix;
 	}
 
